@@ -1,4 +1,29 @@
-theme: minima
-title: Maite Deambrosi
-description: Researcher in [Your Field]
+remote_theme: mmistakes/minimal-mistakes
+title: "Maite Deambrosi"
+subtitle: "Postdoctoral Researcher in Economics"
+description: "Personal academic website"
+name: "Maite Deambrosi"
 email: DeambrosiM@ceu.edu
+repository: mdeamb90/mdeamb90.github.io
+
+# Site settings
+minimal_mistakes_skin: "default"
+
+# Author information
+author:
+  name: "Maite Deambrosi"
+  avatar: "profile-photo.jpg"
+  bio: "Postdoctoral Researcher at Central European University"
+  email: "DeambrosiM@ceu.edu"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Exclude files from processing
+exclude:
+  - README.md
