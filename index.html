@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maite Deambrosi - Behavioral Economist</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fafafa;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            min-height: 100vh;
+        }
+        
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        
+        .profile-photo {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #2c5aa0;
+            flex-shrink: 0;
+        }
+        
+        .photo-placeholder {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #2c5aa0, #4a73c1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 18px;
+            text-align: center;
+            flex-shrink: 0;
+            border: 4px solid #2c5aa0;
+        }
+        
+        .header-text {
+            flex: 1;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            color: #2c5aa0;
+            margin-bottom: 10px;
+            font-weight: normal;
+        }
+        
+        .title {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 15px;
+            font-style: italic;
+        }
+        
+        .contact-info {
+            margin-top: 15px;
+        }
+        
+        .contact-info a {
+            color: #2c5aa0;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        
+        .section {
+            margin-bottom: 35px;
+        }
+        
+        h2 {
+            font-size: 1.5em;
+            color: #2c5aa0;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 5px;
+        }
+        
+        .about-text {
+            font-size: 1.1em;
+            text-align: justify;
+            line-height: 1.7;
+        }
+        
+        .research-interests {
+            font-size: 1.1em;
+            color: #555;
+        }
+        
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .container {
+                padding: 20px 15px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <!-- Replace this div with an img tag when you upload your photo -->
+            <div class="photo-placeholder">
+                Add Your<br>Photo Here
+            </div>
+            <!-- Uncomment this when you have your photo uploaded:
+            <img src="profile-photo.jpg" alt="Maite Deambrosi" class="profile-photo">
+            -->
+            
+            <div class="header-text">
+                <h1>Maite Deambrosi</h1>
+                <div class="title">Postdoctoral Researcher in Economics</div>
+                <div class="contact-info">
+                    <strong>Email:</strong> <a href="mailto:DeambrosiM@ceu.edu">DeambrosiM@ceu.edu</a><br>
+                    <strong>Institution:</strong> Central European University
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <p class="about-text">
+                <strong>Welcome!</strong><br><br>
+                I'm a Postdoctoral Researcher at the Central European University, having recently completed my PhD in Economics at the University of Zurich, where I was a doctoral scholarship holder at the UBS Center for Economics in Society. As an applied behavioral economist, I employ both lab and field experiments to uncover how misperceptions and cognitive biases shape choices and economic outcomes. In particular, I investigate barriers to optimal decision-making in the context of human capital investments and marriage market choices.
+            </p>
+        </div>
+        
+        <div class="section">
+            <h2>Research Interests</h2>
+            <div class="research-interests">
+                Behavioral and Experimental Economics, Empirical Microeconomics
+            </div>
+        </div>
+    </div>
+</body>
+</html>
