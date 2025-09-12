@@ -83,7 +83,7 @@ h3 {
 }
 
 .navbar{
-  background-image: url(/img/minipaint-bar.jpeg);
+  background-image: url(/img/background.jpg);
   background-position: center;
 }
 
@@ -97,8 +97,8 @@ h3 {
 
 @media (max-width: 991px) {
   .img-profile-mobile {
-    max-width: 10rem;
-    max-height: 10rem;
+    max-width: 3rem;
+    max-height: 3rem;
    /* border: 0.3rem solid #343a40;*/
   }
 }
@@ -129,8 +129,8 @@ h3 {
     font-size: 20px;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
+    max-width: 3rem;
+    max-height: 3rem;
     /*border: 0.1rem solid #fff;*/
   }
   #sideNav .navbar-collapse {
